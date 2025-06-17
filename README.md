@@ -16,12 +16,14 @@ Binaries are available for two platforms:
 Visit the [Releases](https://github.com/pca3press/ai_forge_binaries/releases) page and download the specific version(s) you’d like to try.
 
 ---
-## 🚀 How to Run a Python version
+## 🐍 How to Run the Python Version
+
+If you’d like to compare performance with the baseline Python version:
 
 ```bash
 python3 chapter14_sim.py 1000000
 ```
-This will run python version for 1000000 games.
+This runs the simulator for 1,000,000 games using the original object-oriented Python implementation.
 
 ## 🚀 How to Run a Binary
 
@@ -49,7 +51,7 @@ You can repeat this with other versions (e.g., v0, v1, v7, ilp, bbl) to compare 
 Download and run the included batch script:
 ```bash
 chmod +x chapter14_run.sh
-./chapter14_run.sh 1000000
+./chapter14_run.sh 100000000
 ```
 
 Inside the script, choose your platform by setting one of these lines at the top:
