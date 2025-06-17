@@ -30,8 +30,8 @@ This runs the simulator for 1,000,000 games using the original object-oriented P
 1. **Download** a binary matching your system, e.g.:
 
 ```bash
-   wget https://github.com/pca3press/ai_forge_binaries/releases/download/CH14-v1.0/chapter14_sim_v7_macos_arm64
-   ```
+wget https://github.com/pca3press/ai_forge_binaries/releases/download/v1.0.0/chapter14_sim_v7_macos_arm64
+```
 2. Make it executable:
 
 ```bash
@@ -48,7 +48,8 @@ You can repeat this with other versions (e.g., v0, v1, v7, ilp, bbl) to compare 
 
  
 ## Batch Execution Script
-Download and run the included batch script:
+Download all binaries for your system and run the included batch script:
+
 ```bash
 chmod +x chapter14_run.sh
 ./chapter14_run.sh 100000000
