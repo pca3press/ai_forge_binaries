@@ -71,13 +71,20 @@ shasum -a 256 chapter14_sim_v7_macos_arm64
 ```
 
 ## Benchmarking
-Download all binaries for your system and run the included benchmarking script:
+To see how these binaries perform on your system, download all simulation binaries and run the benchmarking script:
 
 ```bash
 chmod +x chapter14_benchmark.sh
 ./chapter14_benchmark.sh 100000000
 ```
-It will get your machine's information and generate a table, like this,
+
+This will:
+
+- Automatically detect your CPU model, OS, and core count
+- Run each version of the simulator with 100 million games
+- Generate a summary table like the one below
+
+Example output:
 
 AMD Ryzen 9 3950X 16-Core Processor (x86_64 Linux), 32 cores, 62.8 GB, Python 3.10.12
 | Program (100000000 simulations)  | Time (s)   | Speedup(x) |
@@ -92,8 +99,12 @@ AMD Ryzen 9 3950X 16-Core Processor (x86_64 Linux), 32 cores, 62.8 GB, Python 3.
 | chapter14_sim_v6_linux_amd64     | 11.863     | 6652.28    |
 | chapter14_sim_v7_linux_amd64     | 0.603      | 130872.31  |
 
-Love to hear how the program perform on your machine, especially machines with high core numbers. 
-Please report it here:
+💬 We’d love to see how the simulation performs on your machine — especially on high-core-count systems or newer architectures!
+
+👉 [📣 Post your benchmark results here](https://github.com/pca3press/ai_forge_binaries/discussions/2)
+
+🏆 Interested to see who gets the most speedup?  
+Post your results — let’s build a leaderboard together!
 
 
 ## 📜 License  
