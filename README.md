@@ -2,7 +2,9 @@
 
 This repository hosts precompiled binaries from *The AI Forge* by Jianxian Wu, optimized for benchmarking and experimentation.
 
-Each binary corresponds to a specific version or technique covered in Chapter 14 of the book. You can download and run them individually to experience the performance difference between naïve Python-like code and fully optimized PCA³-style C implementations.
+Each binary corresponds to a specific version or technique covered in Chapter 14 of the book. A brief introduction to the book is in [here](https://github.com/pca3press/ai_forge), and introduction to Chapter 14 is in [here](https://github.com/pca3press/ai_forge/tree/main/chapter14)
+
+You can download and run them individually to experience the performance difference between naïve Python-like code and fully optimized PCA³-style C implementations.
 
 ---
 
