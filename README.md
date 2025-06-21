@@ -70,6 +70,31 @@ Each file's SHA-256 hash is shown in the release. You can verify manually:
 shasum -a 256 chapter14_sim_v7_macos_arm64
 ```
 
+## Benchmarking
+Download all binaries for your system and run the included benchmarking script:
+
+```bash
+chmod +x chapter14_benchmark.sh
+./chapter14_benchmark.sh 100000000
+```
+It will get your machine's information and generate a table, like this,
+
+AMD Ryzen 9 3950X 16-Core Processor (x86_64 Linux), 32 cores, 62.8 GB, Python 3.10.12
+| Program (100000000 simulations)  | Time (s)   | Speedup(x) |
+|----------------------------------|------------|------------|
+| chapter14_sim.py (x1000 est)     | 78916.000  | 1.00       |
+| chapter14_sim_v0_linux_amd64     | 382.728    | 206.19     |
+| chapter14_sim_v1_linux_amd64     | 111.430    | 708.21     |
+| chapter14_sim_v2_linux_amd64     | 66.594     | 1185.03    |
+| chapter14_sim_v3_linux_amd64     | 67.068     | 1176.66    |
+| chapter14_sim_v4_linux_amd64     | 48.954     | 1612.04    |
+| chapter14_sim_v5_linux_amd64     | 25.364     | 3111.34    |
+| chapter14_sim_v6_linux_amd64     | 11.863     | 6652.28    |
+| chapter14_sim_v7_linux_amd64     | 0.603      | 130872.31  |
+
+Love to hear how the program perform on your machine, especially machines with high core numbers. 
+Please report it here:
+
 
 ## 📜 License  
 These binary files are distributed under the AI Forge Binary Distribution License v1.0.  
