@@ -1,3 +1,10 @@
+# chapter14_run.sh
+
+# Copyright (c) 2025 Jianxian Wu
+# This source code is licensed under the AI Forge Source Code License v1.0.
+# Use permitted only by verified owners of *The AI Forge* book.
+# See the LICENSE file or visit pca3press.com/license for details.
+
 #!/bin/bash
 # Usage: ./chapter14_run.sh [NUM_GAMES]
 NUM_GAMES=${1:-100}
