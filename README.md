@@ -72,6 +72,25 @@ Each file's SHA-256 hash is shown in the release. You can verify manually:
 ```bash
 shasum -a 256 chapter14_sim_v7_macos_arm64
 ```
+### ⚠️ macOS Users: OpenMP Runtime Required
+If running chapter14_sim_v5_macos_arm64 fails with a message like:
+
+```bash
+dyld: Library not loaded: /opt/homebrew/opt/gcc/lib/gcc/current/libgomp.1.dylib
+```
+
+It means your system does not have the OpenMP runtime (libgomp) installed.
+
+✅ To fix this, you have two options:
+
+1. Install OpenMP via Homebrew:
+
+``` bash
+brew reinstall gcc
+```
+
+2. Skip this version:
+If you don’t need the OpenMP version, simply comment it out or skip running it. All other versions will still work. This is not the fastest version, skip it is ok.
 
 ## Benchmarking
 To see how these binaries perform on your system, download all simulation binaries and run the benchmarking script:
@@ -103,6 +122,8 @@ AMD Ryzen 9 3950X 16-Core Processor (x86_64 Linux), 32 cores, 62.8 GB, Python 3.
 | chapter14_sim_v7_linux_amd64     | 0.603      | 130872.31  |
 
 💬 We’d love to see how the simulation performs on your machine — especially on high-core-count systems or newer architectures!
+
+⚠️ macOS Users: If version 5 doesn't run on your machine, simply comment it out in chapter14_benchmark.sh to generate a clean results table without it.
 
 👉 [📣 Post your benchmark results here](https://github.com/pca3press/ai_forge_binaries/discussions/2)
 
