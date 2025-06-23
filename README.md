@@ -117,7 +117,7 @@ Post your results — let’s build a leaderboard together!
 
 If you find this work valuable and want to support continued development of PCA³ tools, performance benchmarking, and open-access AI systems:
 
-👉 [Donate via PayPal](https://paypal.me/pca3press)
+👉 [Donate via PayPal](https://www.paypal.com/donate/buttons/manage/4DF6L6P8EXBKL)
 
 Your support helps make this project sustainable and open for everyone.
 
