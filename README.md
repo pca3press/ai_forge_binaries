@@ -90,7 +90,7 @@ brew reinstall gcc
 ```
 
 2. Skip this version:
-If you don’t need the OpenMP version, simply comment it out or skip running it. All other versions will still work. This is not the fastest version, skip it is ok.
+If you don’t need the OpenMP build, you can safely comment it out or skip running it. It’s not the fastest version, so leaving it out won’t affect your overall results.
 
 ## Benchmarking
 To see how these binaries perform on your system, download all simulation binaries and run the benchmarking script:
