@@ -5,7 +5,6 @@ This repository hosts precompiled binaries from *The AI Forge* by Jianxian Wu, o
 Each binary corresponds to a specific version or optimization technique covered in Chapter 14 of *The AI Forge*.  
 You can find a brief introduction to the book [here](https://github.com/pca3press/ai_forge), and a detailed overview of Chapter 14, including the background behind these binaries, [here](https://github.com/pca3press/ai_forge/tree/main/chapter14).
 
-
 You can download and run them individually to experience the performance difference between naïve Python-like code and fully optimized PCA³-style C implementations.
 
 ---
@@ -110,6 +109,19 @@ AMD Ryzen 9 3950X 16-Core Processor (x86_64 Linux), 32 cores, 62.8 GB, Python 3.
 🏆 Interested to see who gets the most speedup?  
 Post your results — let’s build a leaderboard together!
 
+---
+
+---
+
+## 💖 Support This Project
+
+If you find this work valuable and want to support continued development of PCA³ tools, performance benchmarking, and open-access AI systems:
+
+👉 [Donate via PayPal](https://paypal.me/pca3press)
+
+Your support helps make this project sustainable and open for everyone.
+
+---
 
 ## 📜 License  
 These binary files are distributed under the AI Forge Binary Distribution License v1.0.  
